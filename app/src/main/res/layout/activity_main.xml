@@ -51,7 +51,6 @@
         android:gravity="center" />
 
     <TextView
-        android:id="@+id/text_total_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gasto_total"
@@ -61,6 +60,7 @@
         android:textAllCaps="true" />
 
     <TextView
+        android:id="@+id/text_total_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/valor_total"
